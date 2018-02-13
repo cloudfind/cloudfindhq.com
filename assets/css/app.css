@@ -2388,10 +2388,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
             transform: rotate(-90deg); }
 
 html {
+  width: 100%;
   height: 100%; }
 
 body {
-  min-height: 100%; }
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
 
 a {
   color: inherit;
@@ -2425,75 +2428,81 @@ a:hover {
       background-color: #f11717; }
 
 nav {
-  display: none; }
+  width: 20em;
+  -webkit-transition: left 300ms;
+  transition: left 300ms;
+  position: absolute;
+  top: 0;
+  left: -20em;
+  height: 100%;
+  background: #3683DB; }
+  @media (max-width: 768px) {
+    nav {
+      top: 149px;
+      z-index: 999;
+      width: 100%;
+      left: -100%;
+      height: auto; } }
   nav.is-active {
-    display: block; }
-  nav .container {
-    position: fixed;
-    height: 100%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: 999; }
-  @media (max-width: 1024px) {
-    nav .container {
-      left: 0; } }
-  nav .hamburger-wrapper {
-    height: 149px;
-    position: relative; }
-    nav .hamburger-wrapper .hamburger {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-      border-radius: 50%;
-      background: #3683DB;
-      padding: 22px 20px 18px; }
-  nav .menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20em;
-    height: 100%;
-    background: #3683DB; }
-    nav .menu li {
-      list-style-type: none;
-      text-align: center; }
-    nav .menu a {
-      display: block;
-      text-decoration: none;
-      font-size: 1.5em;
-      padding: 0.2em; }
+    left: 0; }
+  nav li {
+    list-style-type: none;
+    text-align: center; }
+  nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.2em; }
+  nav .login {
+    display: none; }
+    @media (max-width: 768px) {
+      nav .login {
+        display: block; } }
+
+.body-wrap {
+  position: relative;
+  left: 0;
+  -webkit-transition: left 300ms;
+  transition: left 300ms; }
+  .body-wrap.is-active {
+    left: 20em; }
+    @media (max-width: 768px) {
+      .body-wrap.is-active {
+        left: 0; } }
 
 .header {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .header .hamburger {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 40px;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     border-radius: 50%;
     background: #3683DB;
     padding: 22px 20px 18px; }
+    @media (max-width: 768px) {
+      .header .hamburger {
+        left: 15px; } }
   .header .logo {
     margin: 0 auto;
     padding: 30px;
-    display: block; }
+    display: inline-block; }
     .header .logo img {
       height: 82px; }
   .header .login {
     position: absolute;
-    right: 0;
+    right: 40px;
     top: 50%;
     top: 50%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
+    @media (max-width: 768px) {
+      .header .login {
+        display: none; } }
 
 .content h1, .hero h1 {
   font-size: 1.750em;
@@ -2589,7 +2598,7 @@ nav {
       .content .columns .column {
         max-width: 100%;
         text-align: center; }
-        .content .columns .column img {
+        .content .columns .column > img {
           width: 100% !important; } }
   .content .columns.single .column {
     max-width: 880px; }
@@ -2677,9 +2686,7 @@ nav {
       .content .sources .column:first-child {
         text-align: center !important; }
       .content .sources .source {
-        margin: 10px; }
-        .content .sources .source img {
-          width: auto; } }
+        margin: 10px; } }
 
 .content .headshots {
   padding: 20px 0; }
@@ -2716,6 +2723,9 @@ nav {
   letter-spacing: 2px; }
   .contact .email a {
     text-decoration: none; }
+
+.cta {
+  text-align: center; }
 
 footer {
   text-align: center;
