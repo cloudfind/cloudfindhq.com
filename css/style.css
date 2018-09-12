@@ -1,0 +1,252 @@
+
+.bannerh1{
+    font-size: 36px;
+}
+.bannerh3{
+    font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    .centered {
+        position: absolute !important;
+        top: 60% !important;
+        left: 50% !important;
+        transform: translate(-50%, -40%) !important;
+    }
+}
+
+@media(max-width: 767px){
+
+    .bannerh1{
+        font-size: 24px !important;
+    }
+    .bannerh3{
+        font-size: 18px !important;
+    }
+    .bannerh5{
+        font-size: 20px !important;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .centered {
+        position: absolute !important;
+        top: 68% !important;
+        left: 50% !important;
+        transform: translate(-50%, -32%) !important;
+    }
+}
+
+@media (max-width: 557px){
+
+    .bannerh1{
+        font-size: 18px !important;
+    }
+    .bannerh3{
+        font-size: 14px !important;
+    }
+
+}
+
+.cerapro{
+        font-family: "Cera Pro";
+}
+
+@font-face{
+        font-family: "Cera Pro";
+        src:url(font/Cera Pro Bold Italic.otf);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: -35px;
+}
+
+.top-right {
+    position: absolute;
+    top: 6%;
+    right: 6%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+
+    background: #232323;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+.Home:hover{
+    color: #034198;
+    text-decoration: none;
+}
+
+.About:hover{
+    color: #EC7881;
+    text-decoration: none;
+}
+
+.Blog:hover{
+    color: #FFBF52;
+    text-decoration: none;
+}
+
+.Contact:hover
+{
+    color: #59E1BC;
+    text-decoration: none;
+}
+
+#menuToggle
+{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input
+{
+    display: block;
+    width: 50px;
+    height: 47px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #1e5179;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+    transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -81px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #3784DC;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+    transform: none;
+}
