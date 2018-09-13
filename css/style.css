@@ -1,9 +1,9 @@
 
 .bannerh1{
-    font-size: 36px;
+    font-size: 250%;
 }
 .bannerh3{
-    font-size: 24px;
+    font-size: 150%;
 }
 
 @media (max-width: 991px) {
@@ -15,37 +15,36 @@
     }
 }
 
-@media(max-width: 767px){
-
-    .bannerh1{
-        font-size: 24px !important;
-    }
-    .bannerh3{
-        font-size: 18px !important;
-    }
-    .bannerh5{
-        font-size: 20px !important;
-    }
-
-
-}
-
 @media (max-width: 767px) {
     .centered {
         position: absolute !important;
-        top: 68% !important;
+        top: 58% !important;
         left: 50% !important;
         transform: translate(-50%, -32%) !important;
     }
 }
 
+@media(max-width: 767px){
+
+    .bannerh1{
+        font-size: 150% !important;
+    }
+    .bannerh3{
+        font-size: 100% !important;
+    }
+    .bannerh5{
+        font-size: 50% !important;
+    }
+
+}
+
 @media (max-width: 557px){
 
     .bannerh1{
-        font-size: 18px !important;
+        font-size: 80% !important;
     }
     .bannerh3{
-        font-size: 14px !important;
+        font-size: 50% !important;
     }
 
 }
@@ -62,6 +61,62 @@
 .container {
     position: relative;
     text-align: center;
+}
+
+@media(max-width: 767){
+    .container{
+        position: relative;
+        text-align: center;   
+    }
+}
+
+@media(max-width: 557){
+    .container{
+        position: relative;
+        text-align: center;   
+    }
+}
+
+.cloud{
+    font-size: 150%;
+    color: white;
+    top: 44%;
+    left: 15%
+}
+
+/*.icon{
+    left: 50%;top: 50%;
+}*/
+
+.about{
+    font-size: 120%;   
+    color: white;
+}
+
+.contact{
+    font-size: 120%;
+    color: white;
+}
+
+@media(max-width: 757){
+    .icon{
+        margin-top: 20% !important;
+    }
+    .cloud{
+        margin-top: 2%  !important;
+        font-size: 120% !important;
+        color: white !important;
+    }
+    .about .contact{
+        float: left !important;
+        left: -20%;
+        font-size: 120% !important;
+        color: white !important;
+    }
+}
+
+@media(max-width: 420px){
+
 }
 
 .bottom-left {
@@ -177,7 +232,7 @@ a
     position: relative;
 
     background: #1e5179;
-    border-radius: 3px;
+    border-radius: 5px;
 
     z-index: 1;
 
