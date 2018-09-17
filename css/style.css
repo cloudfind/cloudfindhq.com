@@ -1,3 +1,10 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34929f");
+@font-face {font-family: 'CeraPRO-BoldItalic';src: url('/font/34929F_1_0.eot');src: url('/font/34929F_1_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_1_0.woff2') format('woff2'),url('/font/34929F_1_0.woff') format('woff'),url('/font/34929F_1_0.ttf') format('truetype');}
+@font-face {font-family: 'CeraPRO-LightItalic';src: url('/font/34929F_2_0.eot');src: url('/font/34929F_2_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_2_0.woff2') format('woff2'),url('/font/34929F_2_0.woff') format('woff'),url('/font/34929F_2_0.ttf') format('truetype');}
+@font-face {font-family: 'CeraPRO-Light';src: url('/font/34929F_4_0.eot');src: url('/font/34929F_4_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_4_0.woff2') format('woff2'),url('/font/34929F_4_0.woff') format('woff'),url('/font/34929F_4_0.ttf') format('truetype');}
+@font-face {font-family: 'CeraPRO-RegularItalic';src: url('/font/34929F_8_0.eot');src: url('/font/34929F_8_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_8_0.woff2') format('woff2'),url('/font/34929F_8_0.woff') format('woff'),url('/font/34929F_8_0.ttf') format('truetype');}
+@font-face {font-family: 'CeraPRO-Regular';src: url('/font/34929F_9_0.eot');src: url('/font/34929F_9_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_9_0.woff2') format('woff2'),url('/font/34929F_9_0.woff') format('woff'),url('/font/34929F_9_0.ttf') format('truetype');}
 
 .bannerh1{
     font-size: 250%;
@@ -49,13 +56,8 @@
 
 }
 
-.cerapro{
-        font-family: "Cera Pro";
-}
-
-@font-face{
-        font-family: "Cera Pro";
-        src:url(font/Cera Pro Bold Italic.otf);
+.cerapro {
+        font-family: "CeraPRO-Regular";
 }
 
 .container {
