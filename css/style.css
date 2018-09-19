@@ -1,10 +1,30 @@
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/34929f");
-@font-face {font-family: 'CeraPRO-BoldItalic';src: url('/font/34929F_1_0.eot');src: url('/font/34929F_1_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_1_0.woff2') format('woff2'),url('/font/34929F_1_0.woff') format('woff'),url('/font/34929F_1_0.ttf') format('truetype');}
-@font-face {font-family: 'CeraPRO-LightItalic';src: url('/font/34929F_2_0.eot');src: url('/font/34929F_2_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_2_0.woff2') format('woff2'),url('/font/34929F_2_0.woff') format('woff'),url('/font/34929F_2_0.ttf') format('truetype');}
-@font-face {font-family: 'CeraPRO-Light';src: url('/font/34929F_4_0.eot');src: url('/font/34929F_4_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_4_0.woff2') format('woff2'),url('/font/34929F_4_0.woff') format('woff'),url('/font/34929F_4_0.ttf') format('truetype');}
-@font-face {font-family: 'CeraPRO-RegularItalic';src: url('/font/34929F_8_0.eot');src: url('/font/34929F_8_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_8_0.woff2') format('woff2'),url('/font/34929F_8_0.woff') format('woff'),url('/font/34929F_8_0.ttf') format('truetype');}
-@font-face {font-family: 'CeraPRO-Regular';src: url('/font/34929F_9_0.eot');src: url('/font/34929F_9_0.eot?#iefix') format('embedded-opentype'),url('/font/34929F_9_0.woff2') format('woff2'),url('/font/34929F_9_0.woff') format('woff'),url('/font/34929F_9_0.ttf') format('truetype');}
+@font-face {
+  font-family: 'CeraPRO-Regular';
+  src: url('/font/CeraPRO/CeraPRO-Regular.eot');
+  src: url('/font/CeraPRO/CeraPRO-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/font/CeraPRO/CeraPRO-Regular.woff2') format('woff2'),
+  url('/font/CeraPRO/CeraPRO-Regular.woff') format('woff'),
+  url('/font/CeraPRO/CeraPRO-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CeraPRO-Regular';
+  src: url('/font/CeraPRO/CeraPRO-RegularItalic.eot');
+  src: url('/font/CeraPRO/CeraPRO-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('/font/CeraPRO/CeraPRO-RegularItalic.woff2') format('woff2'),
+  url('/font/CeraPRO/CeraPRO-RegularItalic.woff') format('woff'),
+  url('/font/CeraPRO/CeraPRO-RegularItalic.ttf') format('truetype');
+  font-style: italic;
+}
+
+html, body {
+  font-family: CeraPRO-Regular;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 
 .bannerh1{
     font-size: 250%;
@@ -22,7 +42,7 @@
     }
     .cloud{
         font-size: 130% !important;
-        margin-left: -5%; 
+        margin-left: -5%;
     }
     .about{
         font-size: 80%;
@@ -31,7 +51,7 @@
         margin-left: 35% !important;
     }
     .icon{
-        margin-left: -8%; 
+        margin-left: -8%;
     }
 }
 
@@ -91,14 +111,14 @@
 @media(max-width: 767){
     .container{
         position: relative;
-        text-align: center;   
+        text-align: center;
     }
 }
 
 @media(max-width: 557){
     .container{
         position: relative;
-        text-align: center;   
+        text-align: center;
     }
 }
 
@@ -114,7 +134,7 @@
     }
     .contact{
         margin-left: 40%;
-        font-size: 100% !important;  
+        font-size: 100% !important;
     }
     .icon{
         margin-top: 5%;
@@ -134,7 +154,7 @@
     }
     .contact{
     	margin-left: 30%;
-    	font-size: 100% !important;	
+    	font-size: 100% !important;
     }
     .icon{
     	margin-top: 5%;
@@ -184,7 +204,7 @@ body
 
     background: #232323;
     color: #cdcdcd;
-    font-family: "Avenir Next", "Avenir", sans-serif;
+
 }
 
 a
