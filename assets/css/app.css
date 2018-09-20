@@ -1,29 +1,15 @@
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/34929f");
 @font-face {
-  font-family: 'CeraPRO-BoldItalic';
-  src: url("/assets/fonts/34929F_1_0.eot");
-  src: url("/assets/fonts/34929F_1_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/34929F_1_0.woff2") format("woff2"), url("/assets/fonts/34929F_1_0.woff") format("woff"), url("/assets/fonts/34929F_1_0.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'CeraPRO-LightItalic';
-  src: url("/assets/fonts/34929F_2_0.eot");
-  src: url("/assets/fonts/34929F_2_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/34929F_2_0.woff2") format("woff2"), url("/assets/fonts/34929F_2_0.woff") format("woff"), url("/assets/fonts/34929F_2_0.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'CeraPRO-Light';
-  src: url("/assets/fonts/34929F_4_0.eot");
-  src: url("/assets/fonts/34929F_4_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/34929F_4_0.woff2") format("woff2"), url("/assets/fonts/34929F_4_0.woff") format("woff"), url("/assets/fonts/34929F_4_0.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'CeraPRO-RegularItalic';
-  src: url("/assets/fonts/34929F_8_0.eot");
-  src: url("/assets/fonts/34929F_8_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/34929F_8_0.woff2") format("woff2"), url("/assets/fonts/34929F_8_0.woff") format("woff"), url("/assets/fonts/34929F_8_0.ttf") format("truetype"); }
+  font-family: 'CeraPRO-Regular';
+  src: url("/assets/fonts/CeraPRO/CeraPRO-Regular.eot");
+  src: url("/assets/fonts/CeraPRO/CeraPRO-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CeraPRO/CeraPRO-Regular.woff2") format("woff2"), url("/assets/fonts/CeraPRO/CeraPRO-Regular.woff") format("woff"), url("/assets/fonts/CeraPRO/CeraPRO-Regular.ttf") format("truetype");
+  font-style: normal; }
 
 @font-face {
   font-family: 'CeraPRO-Regular';
-  src: url("/assets/fonts/34929F_9_0.eot");
-  src: url("/assets/fonts/34929F_9_0.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/34929F_9_0.woff2") format("woff2"), url("/assets/fonts/34929F_9_0.woff") format("woff"), url("/assets/fonts/34929F_9_0.ttf") format("truetype"); }
+  src: url("/assets/fonts/CeraPRO/CeraPRO-RegularItalic.eot");
+  src: url("/assets/fonts/CeraPRO/CeraPRO-RegularItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CeraPRO/CeraPRO-RegularItalic.woff2") format("woff2"), url("/assets/fonts/CeraPRO/CeraPRO-RegularItalic.woff") format("woff"), url("/assets/fonts/CeraPRO/CeraPRO-RegularItalic.ttf") format("truetype");
+  font-style: italic; }
 
 @-webkit-keyframes spinAround {
   from {
@@ -2431,10 +2417,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         top: 50%;
         left: 50%;
         z-index: 10;
-        -webkit-transition: opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1), opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1), opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1); }
+        -webkit-transition: opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1), opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1), opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1); }
       .header .navbar .hamburger span:nth-of-type(1) {
         -webkit-transform: translate(-50%, calc(-50% - 5rem / 8));
             -ms-transform: translate(-50%, calc(-50% - 5rem / 8));
@@ -2458,10 +2444,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         -webkit-transform: translateX(-100%);
             -ms-transform: translateX(-100%);
                 transform: translateX(-100%);
-        -webkit-transition: -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-        transition: transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 250ms cubic-bezier(0.77, 0.2, 0.05, 1); }
+        -webkit-transition: -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+        transition: transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 500ms cubic-bezier(0.77, 0.2, 0.05, 1); }
         .header .navbar .hamburger .menu ul {
           list-style-type: none;
           padding-left: 0; }
@@ -2472,8 +2458,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
           .header .navbar .hamburger .menu ul a {
             text-decoration: none;
             color: #1d1d1d;
-            -webkit-transition: color 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-            transition: color 250ms cubic-bezier(0.77, 0.2, 0.05, 1); }
+            -webkit-transition: color 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+            transition: color 500ms cubic-bezier(0.77, 0.2, 0.05, 1); }
             @media (max-width: 1024px) {
               .header .navbar .hamburger .menu ul a {
                 color: whitesmoke; } }
@@ -2506,13 +2492,6 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       width: auto; }
       .header .navbar .brand img {
         height: 3.75rem; }
-    .header .navbar .contact {
-      text-decoration: none;
-      color: #3683DB;
-      background-color: #6be7c6;
-      padding: 0.5rem 1rem;
-      margin-right: 1rem;
-      border-radius: 0.5rem; }
   .header .title {
     width: 100%;
     display: -webkit-box;
@@ -2582,6 +2561,15 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
 
+.navbar a.button.contact, a.button.contact {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #084293;
+  background-color: #6be7c6;
+  padding: 1em;
+  margin-right: 1rem;
+  border-radius: 0.5rem; }
+
 section .container {
   padding: 3rem 2rem 2rem; }
 
@@ -2591,7 +2579,13 @@ section .container {
   .section__cloudfind-home .container__video {
     position: relative;
     overflow: hidden;
-    padding-top: 45%; }
+    padding-top: 40%;
+    width: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    @media (max-width: 768px) {
+      .section__cloudfind-home .container__video {
+        padding-top: 45%; } }
     .section__cloudfind-home .container__video iframe {
       position: absolute;
       top: 0;
@@ -2601,6 +2595,11 @@ section .container {
       border: 0; }
   .section__cloudfind-home .container__features h3 {
     margin-top: 1rem; }
+  .section__cloudfind-home .container__features .columns {
+    width: 100%;
+    margin: 0; }
+  .section__cloudfind-home .container__features .column {
+    margin-top: 2rem; }
 
 .section__cloudfind-contact {
   padding-bottom: 160px;
@@ -2670,7 +2669,8 @@ section .container {
 html {
   width: 100%;
   height: 100%;
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: 'CeraPRO-Regular', Helvetica, Arial, sans-serif; }
   @media (max-width: 768px) {
     html {
       font-size: 12px; } }
@@ -2685,8 +2685,8 @@ body {
 
 .button {
   outline: none !important;
-  -webkit-transition: opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: opacity 250ms cubic-bezier(0.77, 0.2, 0.05, 1); }
+  -webkit-transition: opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: opacity 500ms cubic-bezier(0.77, 0.2, 0.05, 1); }
   .button:hover {
     opacity: 0.75; }
 
@@ -2699,21 +2699,6 @@ a:hover {
 
 .text-centered {
   text-align: center; }
-
-h1, h2, h3, h4 {
-  font-weight: bold; }
-
-h1 {
-  font-size: 2rem; }
-
-h2 {
-  font-size: 1.25rem; }
-
-h3 {
-  font-size: 1.125rem; }
-
-h4 {
-  font-size: 1rem; }
 
 .content {
   color: #1d1d1d;
