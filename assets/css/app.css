@@ -2355,8 +2355,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     left: 0;
     width: 100%;
     z-index: -1;
-    background: -webkit-gradient(linear, left bottom, left top, from(#1d1d1d), color-stop(#052c63), to(#1d1d1d)), -webkit-gradient(linear, left top, right top, from(rgba(29, 29, 29, 0.5)), color-stop(rgba(8, 66, 147, 0.5)), to(#1d1d1d));
-    background: linear-gradient(0deg, #1d1d1d, #052c63, #1d1d1d), linear-gradient(90deg, rgba(29, 29, 29, 0.5), rgba(8, 66, 147, 0.5), #1d1d1d); }
+    background: -webkit-gradient(linear, left bottom, left top, from(#1d1d1d), color-stop(#052c63), to(#1d1d1d));
+    background: linear-gradient(0deg, #1d1d1d, #052c63, #1d1d1d); }
   .header .navbar {
     position: relative;
     width: 100%;
