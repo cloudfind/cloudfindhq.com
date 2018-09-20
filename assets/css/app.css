@@ -2599,7 +2599,8 @@ section .container {
     width: 100%;
     margin: 0; }
   .section__cloudfind-home .container__features .column {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    padding: 0 1rem; }
 
 .section__cloudfind-contact {
   padding-bottom: 160px;
