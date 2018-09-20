@@ -257,10 +257,10 @@
 		};
 
 		Particle.prototype.update = function() {
-			if (this.opacity < 0.9) {
+			if (this.opacity < 0.75) {
 				this.opacity += 0.01;
 			} else {
-				this.opacity = 0.9;
+				this.opacity = 0.75;
 			}
 			// Change dir if outside map
 			const gutter = this.network.options.gutter
@@ -282,6 +282,8 @@
 			this.ctx.fillStyle = this.particleColor;
 			this.ctx.globalAlpha = this.opacity;
 			this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+			this.ctx.shadowBlur = 10;
+			this.ctx.shadowColor = 'white';
 			this.ctx.fill();
 		};
 
@@ -369,6 +371,7 @@
 						this.ctx.strokeStyle = this.options.netLineColor;
 						this.ctx.globalAlpha = (this.options.netLineDistance - distance) / this.options.netLineDistance * p1.opacity * p2.opacity;
 						this.ctx.lineWidth = 0.7;
+						this.ctx.shadowBlur = 0;
 						this.ctx.moveTo(p1.x, p1.y);
 						this.ctx.lineTo(p2.x, p2.y);
 						this.ctx.stroke();
