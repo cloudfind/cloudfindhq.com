@@ -2579,7 +2579,7 @@ section .container {
   .section__cloudfind-home .container__video {
     position: relative;
     overflow: hidden;
-    padding-top: 40%;
+    padding-top: 42%;
     width: auto;
     padding-left: 0 !important;
     padding-right: 0 !important; }
