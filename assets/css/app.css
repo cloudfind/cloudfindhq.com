@@ -2354,9 +2354,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
-    background: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), color-stop(50%, #052c63), to(#1d1d1d));
-    background: linear-gradient(#1d1d1d, #052c63 50%, #1d1d1d); }
+    z-index: -1; }
   .header .navbar {
     position: relative;
     width: 100%;
@@ -2524,6 +2522,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   @media (max-width: 768px) {
     .header, .header .banner {
       height: 17.5rem; } }
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d1d1d), color-stop(50%, #052c63), to(#1d1d1d));
+  background: linear-gradient(#1d1d1d, #052c63 50%, #1d1d1d); }
 
 footer {
   width: 100%; }
