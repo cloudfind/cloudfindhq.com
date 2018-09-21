@@ -129,7 +129,7 @@ button,
 input,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "CeraPRO-Regular", Helvetica, Arial, sans-serif; }
 
 code,
 pre {
@@ -241,10 +241,10 @@ table th {
 .is-size-4, .section__about h3 {
   font-size: 1.5rem !important; }
 
-.is-size-5 {
+.is-size-5, .section__about h3 ~ p:first-of-type {
   font-size: 1.25rem !important; }
 
-.is-size-6, .section__about h3 ~ p:first-of-type {
+.is-size-6, .section__about h3 ~ p:last-of-type {
   font-size: 1rem !important; }
 
 .is-size-7 {
@@ -610,7 +610,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .has-text-weight-semibold {
   font-weight: 600 !important; }
 
-.has-text-weight-bold {
+.has-text-weight-bold, .section__about h3 {
   font-weight: 700 !important; }
 
 .is-block {
@@ -2352,6 +2352,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     margin: 0; }
   .section__about h3 ~ p:first-of-type {
     color: #d83030; }
+  .section__about h3 ~ p:last-of-type {
+    padding-top: 1rem; }
   .section__about figure {
     margin-left: auto; }
   @media (max-width: 768px) {
@@ -2716,7 +2718,7 @@ body {
   margin: 0;
   padding: 0;
   color: #1d1d1d;
-  font-family: 'CeraPRO-Regular', Helvetica, Arial, sans-serif; }
+  font-family: "CeraPRO-Regular", Helvetica, Arial, sans-serif; }
 
 .button {
   outline: none !important;
@@ -2736,6 +2738,7 @@ a:hover {
   text-align: center; }
 
 .content {
+  font-family: 'CeraPRO-Regular', Helvetica, Arial, sans-serif;
   color: #1d1d1d;
   margin: 0; }
   .content h1, .content h2, .content h3, .content h4 {
