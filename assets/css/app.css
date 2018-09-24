@@ -238,13 +238,13 @@ table th {
 .is-size-3 {
   font-size: 2rem !important; }
 
-.is-size-4, .section__about h3 {
+.is-size-4 {
   font-size: 1.5rem !important; }
 
-.is-size-5, .section__about h3 ~ p:first-of-type {
+.is-size-5, .section__about h3 {
   font-size: 1.25rem !important; }
 
-.is-size-6, .section__about h3 ~ p:last-of-type {
+.is-size-6, .section__about h3 ~ p:first-of-type, .section__about h3 ~ p:last-of-type {
   font-size: 1rem !important; }
 
 .is-size-7 {
@@ -4824,14 +4824,17 @@ footer {
           -ms-flex-pack: center;
               justify-content: center; }
 
-.navbar a.button.contact, a.button.contact {
+.navbar a.button.get-in-touch, a.button.get-in-touch {
   text-transform: uppercase;
   text-decoration: none;
-  color: #084293;
-  background-color: #6be7c6;
-  padding: 1em;
-  margin-right: 1rem;
-  border-radius: 0.5rem; }
+  margin-right: 1rem; }
+
+.section__404 .columns {
+  min-height: calc(100vh - 35rem - 7.5rem); }
+
+@media (max-width: 768px) {
+  .section__404 .columns {
+    min-height: calc(100vh - 17.5rem - 12.5rem); } }
 
 * {
   -webkit-box-sizing: border-box;
@@ -4894,3 +4897,11 @@ button, .button {
 
 .button.is-primary {
   color: #084293 !important; }
+
+.blue-dotted {
+  padding-bottom: 160px;
+  background: #fff url(/assets/img/dotted-background-light.png) repeat-x center bottom 8px/480px; }
+  @media (max-width: 768px) {
+    .blue-dotted {
+      padding-bottom: 96px;
+      background: #fff url(/assets/img/dotted-background-light.png) repeat-x center bottom 8px/320px; } }
