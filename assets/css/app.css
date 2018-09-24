@@ -557,10 +557,10 @@ a.has-text-info:hover, a.has-text-info:focus {
   color: #0f81cc !important; }
 
 .has-text-success {
-  color: #23d160 !important; }
+  color: #3683DB !important; }
 
 a.has-text-success:hover, a.has-text-success:focus {
-  color: #1ca64c !important; }
+  color: #226abc !important; }
 
 .has-text-warning {
   color: #ffdd57 !important; }
@@ -2934,31 +2934,31 @@ a.has-text-danger:hover, a.has-text-danger:focus {
                 box-shadow: none;
         color: #fff; }
   .button.is-success {
-    background-color: #23d160;
+    background-color: #3683DB;
     border-color: transparent;
     color: #fff; }
     .button.is-success:hover, .button.is-success.is-hovered {
-      background-color: #22c65b;
+      background-color: #2b7cd9;
       border-color: transparent;
       color: #fff; }
     .button.is-success:focus, .button.is-success.is-focused {
       border-color: transparent;
       color: #fff; }
       .button.is-success:focus:not(:active), .button.is-success.is-focused:not(:active) {
-        -webkit-box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25);
-                box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
+        -webkit-box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25);
+                box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25); }
     .button.is-success:active, .button.is-success.is-active {
-      background-color: #20bc56;
+      background-color: #2676d2;
       border-color: transparent;
       color: #fff; }
     .button.is-success[disabled] {
-      background-color: #23d160;
+      background-color: #3683DB;
       border-color: transparent;
       -webkit-box-shadow: none;
               box-shadow: none; }
     .button.is-success.is-inverted {
       background-color: #fff;
-      color: #23d160; }
+      color: #3683DB; }
       .button.is-success.is-inverted:hover {
         background-color: #f2f2f2; }
       .button.is-success.is-inverted[disabled] {
@@ -2966,32 +2966,32 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         border-color: transparent;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        color: #23d160; }
+        color: #3683DB; }
     .button.is-success.is-loading:after {
       border-color: transparent transparent #fff #fff !important; }
     .button.is-success.is-outlined {
       background-color: transparent;
-      border-color: #23d160;
-      color: #23d160; }
+      border-color: #3683DB;
+      color: #3683DB; }
       .button.is-success.is-outlined:hover, .button.is-success.is-outlined:focus {
-        background-color: #23d160;
-        border-color: #23d160;
+        background-color: #3683DB;
+        border-color: #3683DB;
         color: #fff; }
       .button.is-success.is-outlined.is-loading:after {
-        border-color: transparent transparent #23d160 #23d160 !important; }
+        border-color: transparent transparent #3683DB #3683DB !important; }
       .button.is-success.is-outlined[disabled] {
         background-color: transparent;
-        border-color: #23d160;
+        border-color: #3683DB;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        color: #23d160; }
+        color: #3683DB; }
     .button.is-success.is-inverted.is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
       .button.is-success.is-inverted.is-outlined:hover, .button.is-success.is-inverted.is-outlined:focus {
         background-color: #fff;
-        color: #23d160; }
+        color: #3683DB; }
       .button.is-success.is-inverted.is-outlined[disabled] {
         background-color: transparent;
         border-color: #fff;
@@ -3382,14 +3382,14 @@ a.has-text-danger:hover, a.has-text-danger:focus {
               box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .input.is-success,
   .textarea.is-success {
-    border-color: #23d160; }
+    border-color: #3683DB; }
     .input.is-success:focus, .input.is-success.is-focused, .input.is-success:active, .input.is-success.is-active,
     .textarea.is-success:focus,
     .textarea.is-success.is-focused,
     .textarea.is-success:active,
     .textarea.is-success.is-active {
-      -webkit-box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25);
-              box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
+      -webkit-box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25);
+              box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25); }
   .input.is-warning,
   .textarea.is-warning {
     border-color: #ffdd57; }
@@ -3620,10 +3620,10 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       -webkit-box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25);
               box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .select.is-success select {
-    border-color: #23d160; }
+    border-color: #3683DB; }
     .select.is-success select:focus, .select.is-success select.is-focused, .select.is-success select:active, .select.is-success select.is-active {
-      -webkit-box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25);
-              box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
+      -webkit-box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25);
+              box-shadow: 0 0 0 0.125em rgba(54, 131, 219, 0.25); }
   .select.is-warning select {
     border-color: #ffdd57; }
     .select.is-warning select:focus, .select.is-warning select.is-focused, .select.is-warning select:active, .select.is-warning select.is-active {
@@ -3809,20 +3809,20 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     border-color: transparent;
     color: #fff; }
   .file.is-success .file-cta {
-    background-color: #23d160;
+    background-color: #3683DB;
     border-color: transparent;
     color: #fff; }
   .file.is-success:hover .file-cta, .file.is-success.is-hovered .file-cta {
-    background-color: #22c65b;
+    background-color: #2b7cd9;
     border-color: transparent;
     color: #fff; }
   .file.is-success:focus .file-cta, .file.is-success.is-focused .file-cta {
     border-color: transparent;
-    -webkit-box-shadow: 0 0 0.5em rgba(35, 209, 96, 0.25);
-            box-shadow: 0 0 0.5em rgba(35, 209, 96, 0.25);
+    -webkit-box-shadow: 0 0 0.5em rgba(54, 131, 219, 0.25);
+            box-shadow: 0 0 0.5em rgba(54, 131, 219, 0.25);
     color: #fff; }
   .file.is-success:active .file-cta, .file.is-success.is-active .file-cta {
-    background-color: #20bc56;
+    background-color: #2676d2;
     border-color: transparent;
     color: #fff; }
   .file.is-warning .file-cta {
@@ -4070,7 +4070,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .help.is-info {
     color: #209cee; }
   .help.is-success {
-    color: #23d160; }
+    color: #3683DB; }
   .help.is-warning {
     color: #ffdd57; }
   .help.is-danger {
@@ -4402,6 +4402,62 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .image.is-128x128 {
     height: 128px;
     width: 128px; }
+
+.notification {
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+  position: relative; }
+  .notification:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  .notification a:not(.button) {
+    color: currentColor;
+    text-decoration: underline; }
+  .notification strong {
+    color: currentColor; }
+  .notification code,
+  .notification pre {
+    background: #fff; }
+  .notification pre code {
+    background: transparent; }
+  .notification > .delete {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem; }
+  .notification .title,
+  .notification .subtitle,
+  .notification .content {
+    color: currentColor; }
+  .notification.is-white {
+    background-color: #fff;
+    color: #0a0a0a; }
+  .notification.is-black {
+    background-color: #0a0a0a;
+    color: #fff; }
+  .notification.is-light {
+    background-color: whitesmoke;
+    color: #1d1d1d; }
+  .notification.is-dark {
+    background-color: #1d1d1d;
+    color: whitesmoke; }
+  .notification.is-primary {
+    background-color: #6be7c6;
+    color: #fff; }
+  .notification.is-link {
+    background-color: #084293;
+    color: #fff; }
+  .notification.is-info {
+    background-color: #209cee;
+    color: #fff; }
+  .notification.is-success {
+    background-color: #3683DB;
+    color: #fff; }
+  .notification.is-warning {
+    background-color: #ffdd57;
+    color: rgba(0, 0, 0, 0.7); }
+  .notification.is-danger {
+    background-color: #d83030;
+    color: #fff; }
 
 .image.is-192x192 {
   width: 192px;
