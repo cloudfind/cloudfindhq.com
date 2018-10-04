@@ -4481,10 +4481,20 @@ a.has-text-danger:hover, a.has-text-danger:focus {
       margin-left: auto;
       margin-right: auto; } }
   .section__about .columns.headshots {
-    padding: 2rem 0rem; }
+    padding: 2rem 0; }
     @media (max-width: 1024px) {
       .section__about .columns.headshots {
         padding: 2rem; } }
+    @media (max-width: 1023px) {
+      .section__about .columns.headshots {
+        margin: 0; }
+        .section__about .columns.headshots .column {
+          padding-left: 0 !important;
+          padding-right: 0 !important; }
+        .section__about .columns.headshots .tile {
+          margin: 0 !important;
+          padding: 0 !important;
+          max-width: 100vh !important; } }
   .section__about .columns.headshots:nth-of-type(1), .section__about .columns.headshots:nth-of-type(3) {
     background-color: #E7EDF6; }
   @media (max-width: 768px) {
@@ -4523,6 +4533,9 @@ section .container {
   .section__cloudfind-home .container__features .column {
     margin-top: 2rem;
     padding: 0 1rem; }
+  .section__cloudfind-home .container__features img {
+    max-width: 192px;
+    max-height: 192px; }
 
 .section__cloudfind-contact {
   padding-bottom: 160px;
