@@ -134,6 +134,12 @@
               <textarea id="message" class="textarea" placeholder="Message…" onchange="validate()" onkeyup="validate()"></textarea>
             </div>
           </div>
+          <div class="field">
+            <label class="label" for="agree">By ticking this box you agree to us responding to your message by email</label>
+            <div class="control">
+              <input id="agree" type="checkbox" onchange="validate()" onkeyup="validate()">
+            </div>
+          </div>
           <div class="field has-text-right">
             <div class="control has-text-right">
               <button id="send" class="button is-primary is-medium" onclick="sendMessage(event)">Send</button>
@@ -251,7 +257,8 @@
   var validate = function () {
     var canSubmit = document.getElementById("name").value.length &&
       document.getElementById("name").value.length &&
-      document.getElementById("message").value.length
+      document.getElementById("message").value.length &&
+      document.getElementById("agree").checked
     document.getElementById("send").disabled = !canSubmit
   }
 
@@ -261,8 +268,6 @@
     const url= "https://af.cloudfindhq.com/intercom/messages"
 
     xhr.onreadystatechange = function () {
-      console.log('Response')
-      console.log(this.readyState, this.status)
       if (this.readyState === 4) {
         if (this.status === 200) {
           document.getElementById("notifciation-success").style.display = 'block'
